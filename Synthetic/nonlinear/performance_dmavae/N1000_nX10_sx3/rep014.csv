@@ -1,0 +1,2 @@
+method,scenario_id,scenario,rep,N,n_X,sigma2_x,ATE_est,NDE_d0_est,NIE_d1_est,NIE_d0_est,ATE_true,NDE_d0_true,NIE_d1_true,NIE_d0_true,ATE_bias,NDE_d0_bias,NIE_d1_bias,NIE_d0_bias,converged,first_10_loss,last_10_loss,last_10_loss_sd,relative_drop,relative_sd
+dmavae,5,N1000_nX10_sx3,14,1000,10,3,1.621091,1.194292,0.426798,0.257479,1.713809,1.138022,0.575786,0.383858,-0.092718,0.056270,-0.148988,-0.126379,True,56.402282,21.672365,0.028570,0.615754,0.001318

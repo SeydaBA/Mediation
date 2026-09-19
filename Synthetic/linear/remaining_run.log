@@ -1,0 +1,11 @@
+nohup: ignoring input
+Submitted run_dmavae: 13210594
+19:47:12  waiting for job 13210594...
+20:36:17  job 13210594 done.
+Submitted run_cmavae: 13211732
+20:36:17  waiting for job 13211732...
+21:29:21  job 13211732 done.
+Submitted aggregate: 13212628
+21:29:21  waiting for job 13212628...
+21:30:21  job 13212628 done.
+ALL DONE.

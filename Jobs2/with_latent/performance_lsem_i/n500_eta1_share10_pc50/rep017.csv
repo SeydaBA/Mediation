@@ -1,0 +1,2 @@
+"method","scenario_id","scenario","rep","n","eta","alpha_share","ATE_est","NDE_d1_est","NDE_d0_est","NIE_d1_est","NIE_d0_est","ATE_true","NDE_d1_true","NDE_d0_true","NIE_d1_true","NIE_d0_true","ATE_bias","NDE_d1_bias","NDE_d0_bias","NIE_d1_bias","NIE_d0_bias"
+"lsem_i_proxyX",33,"n500_eta1_share10_pc50",17,500,1,0.1,0.0690312967226682,-0.206393671224821,-0.206393671224821,0.335428997908628,0.215420937986349,0,0,0,0,0,0.0690312967226682,-0.206393671224821,-0.206393671224821,0.335428997908628,0.215420937986349

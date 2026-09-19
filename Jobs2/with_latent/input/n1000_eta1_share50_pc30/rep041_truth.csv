@@ -1,0 +1,2 @@
+"scenario_id","scenario","rep","n","eta","alpha","alpha_share","p_c","w_z","ATE","NDE_d1","NDE_d0","NIE_d1","NIE_d0"
+22,"n1000_eta1_share50_pc30",41,1000,1,1.0079339210754,0.5,0.3,4.85499001191626,0,0,0,0,0

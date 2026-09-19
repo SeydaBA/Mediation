@@ -1,0 +1,78 @@
+nohup: ignoring input
+[submit] PROJECT_ROOT=/home/tu/tu_tu/tu_zxojs39/cluster_jobs2_latent/dmavae_sim
+[submit] === dmavae (4 chunks, sequential, %500) ===
+  dmavae o=0 -> 13367801 (dep=)
+  [wait] transient error (1123 tasks in queue), sleeping 5 min: sbatch: error: QOSMaxSubmitJobPerUserLimit
+sbatch: error: Batch job submission failed: Job violates accounting/QOS policy (job submit limit, user's size and/or time limits)
+  [wait] transient error (1025 tasks in queue), sleeping 5 min: sbatch: error: QOSMaxSubmitJobPerUserLimit
+sbatch: error: Batch job submission failed: Job violates accounting/QOS policy (job submit limit, user's size and/or time limits)
+  [wait] transient error (825 tasks in queue), sleeping 5 min: sbatch: error: QOSMaxSubmitJobPerUserLimit
+sbatch: error: Batch job submission failed: Job violates accounting/QOS policy (job submit limit, user's size and/or time limits)
+  [wait] transient error (567 tasks in queue), sleeping 5 min: sbatch: error: QOSMaxSubmitJobPerUserLimit
+sbatch: error: Batch job submission failed: Job violates accounting/QOS policy (job submit limit, user's size and/or time limits)
+  dmavae o=1000 -> 13368833 (dep=afterany:13367801)
+  [wait] transient error (1313 tasks in queue), sleeping 5 min: sbatch: error: QOSMaxSubmitJobPerUserLimit
+sbatch: error: Batch job submission failed: Job violates accounting/QOS policy (job submit limit, user's size and/or time limits)
+  [wait] transient error (1122 tasks in queue), sleeping 5 min: sbatch: error: QOSMaxSubmitJobPerUserLimit
+sbatch: error: Batch job submission failed: Job violates accounting/QOS policy (job submit limit, user's size and/or time limits)
+  [wait] transient error (997 tasks in queue), sleeping 5 min: sbatch: error: QOSMaxSubmitJobPerUserLimit
+sbatch: error: Batch job submission failed: Job violates accounting/QOS policy (job submit limit, user's size and/or time limits)
+  [wait] transient error (767 tasks in queue), sleeping 5 min: sbatch: error: QOSMaxSubmitJobPerUserLimit
+sbatch: error: Batch job submission failed: Job violates accounting/QOS policy (job submit limit, user's size and/or time limits)
+  dmavae o=2000 -> 13369885 (dep=afterany:13368833)
+  [wait] transient error (1446 tasks in queue), sleeping 5 min: sbatch: error: QOSMaxSubmitJobPerUserLimit
+sbatch: error: Batch job submission failed: Job violates accounting/QOS policy (job submit limit, user's size and/or time limits)
+  [wait] transient error (1191 tasks in queue), sleeping 5 min: sbatch: error: QOSMaxSubmitJobPerUserLimit
+sbatch: error: Batch job submission failed: Job violates accounting/QOS policy (job submit limit, user's size and/or time limits)
+  [wait] transient error (990 tasks in queue), sleeping 5 min: sbatch: error: QOSMaxSubmitJobPerUserLimit
+sbatch: error: Batch job submission failed: Job violates accounting/QOS policy (job submit limit, user's size and/or time limits)
+  [wait] transient error (637 tasks in queue), sleeping 5 min: sbatch: error: QOSMaxSubmitJobPerUserLimit
+sbatch: error: Batch job submission failed: Job violates accounting/QOS policy (job submit limit, user's size and/or time limits)
+  dmavae o=3000 -> 13371232 (dep=afterany:13369885)
+[submit] === cmavae (4 chunks, sequential, %500) ===
+  [wait] transient error (1381 tasks in queue), sleeping 5 min: sbatch: error: QOSMaxSubmitJobPerUserLimit
+sbatch: error: Batch job submission failed: Job violates accounting/QOS policy (job submit limit, user's size and/or time limits)
+  [wait] transient error (1116 tasks in queue), sleeping 5 min: sbatch: error: QOSMaxSubmitJobPerUserLimit
+sbatch: error: Batch job submission failed: Job violates accounting/QOS policy (job submit limit, user's size and/or time limits)
+  [wait] transient error (932 tasks in queue), sleeping 5 min: sbatch: error: QOSMaxSubmitJobPerUserLimit
+sbatch: error: Batch job submission failed: Job violates accounting/QOS policy (job submit limit, user's size and/or time limits)
+  [wait] transient error (663 tasks in queue), sleeping 5 min: sbatch: error: QOSMaxSubmitJobPerUserLimit
+sbatch: error: Batch job submission failed: Job violates accounting/QOS policy (job submit limit, user's size and/or time limits)
+  cmavae o=0 -> 13372265 (dep=afterany:13371232)
+  [wait] transient error (1418 tasks in queue), sleeping 5 min: sbatch: error: QOSMaxSubmitJobPerUserLimit
+sbatch: error: Batch job submission failed: Job violates accounting/QOS policy (job submit limit, user's size and/or time limits)
+  [wait] transient error (1175 tasks in queue), sleeping 5 min: sbatch: error: QOSMaxSubmitJobPerUserLimit
+sbatch: error: Batch job submission failed: Job violates accounting/QOS policy (job submit limit, user's size and/or time limits)
+  [wait] transient error (1025 tasks in queue), sleeping 5 min: sbatch: error: QOSMaxSubmitJobPerUserLimit
+sbatch: error: Batch job submission failed: Job violates accounting/QOS policy (job submit limit, user's size and/or time limits)
+  [wait] transient error (877 tasks in queue), sleeping 5 min: sbatch: error: QOSMaxSubmitJobPerUserLimit
+sbatch: error: Batch job submission failed: Job violates accounting/QOS policy (job submit limit, user's size and/or time limits)
+  [wait] transient error (799 tasks in queue), sleeping 5 min: sbatch: error: QOSMaxSubmitJobPerUserLimit
+sbatch: error: Batch job submission failed: Job violates accounting/QOS policy (job submit limit, user's size and/or time limits)
+  [wait] transient error (799 tasks in queue), sleeping 5 min: sbatch: error: QOSMaxSubmitJobPerUserLimit
+sbatch: error: Batch job submission failed: Job violates accounting/QOS policy (job submit limit, user's size and/or time limits)
+  [wait] transient error (731 tasks in queue), sleeping 5 min: sbatch: error: QOSMaxSubmitJobPerUserLimit
+sbatch: error: Batch job submission failed: Job violates accounting/QOS policy (job submit limit, user's size and/or time limits)
+  cmavae o=1000 -> 13374395 (dep=afterany:13372265)
+  [wait] transient error (1499 tasks in queue), sleeping 5 min: sbatch: error: QOSMaxSubmitJobPerUserLimit
+sbatch: error: Batch job submission failed: Job violates accounting/QOS policy (job submit limit, user's size and/or time limits)
+  [wait] transient error (1216 tasks in queue), sleeping 5 min: sbatch: error: QOSMaxSubmitJobPerUserLimit
+sbatch: error: Batch job submission failed: Job violates accounting/QOS policy (job submit limit, user's size and/or time limits)
+  [wait] transient error (1113 tasks in queue), sleeping 5 min: sbatch: error: QOSMaxSubmitJobPerUserLimit
+sbatch: error: Batch job submission failed: Job violates accounting/QOS policy (job submit limit, user's size and/or time limits)
+  [wait] transient error (814 tasks in queue), sleeping 5 min: sbatch: error: QOSMaxSubmitJobPerUserLimit
+sbatch: error: Batch job submission failed: Job violates accounting/QOS policy (job submit limit, user's size and/or time limits)
+  [wait] transient error (517 tasks in queue), sleeping 5 min: sbatch: error: QOSMaxSubmitJobPerUserLimit
+sbatch: error: Batch job submission failed: Job violates accounting/QOS policy (job submit limit, user's size and/or time limits)
+  cmavae o=2000 -> 13375666 (dep=afterany:13374395)
+  [wait] transient error (1219 tasks in queue), sleeping 5 min: sbatch: error: QOSMaxSubmitJobPerUserLimit
+sbatch: error: Batch job submission failed: Job violates accounting/QOS policy (job submit limit, user's size and/or time limits)
+  [wait] transient error (1011 tasks in queue), sleeping 5 min: sbatch: error: QOSMaxSubmitJobPerUserLimit
+sbatch: error: Batch job submission failed: Job violates accounting/QOS policy (job submit limit, user's size and/or time limits)
+  [wait] transient error (750 tasks in queue), sleeping 5 min: sbatch: error: QOSMaxSubmitJobPerUserLimit
+sbatch: error: Batch job submission failed: Job violates accounting/QOS policy (job submit limit, user's size and/or time limits)
+  cmavae o=3000 -> 13376570 (dep=afterany:13375666)
+[submit] === aggregate ===
+  aggregate -> 13376571
+
+All pieces submitted. Pipeline runs hands-off.

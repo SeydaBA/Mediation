@@ -1,0 +1,158 @@
+nohup: ignoring input
+===================================================================
+[dml_full] Started: Sun May 24 13:58:40 CEST 2026
+[dml_full] Host: o05i15
+[dml_full] PROJECT_ROOT=/home/tu/tu_tu/tu_zxojs39/cluster_nonlinear/dmavae_sim
+===================================================================
+
+[dml_full] Pre-flight checks...
+  - patch_LARF.R exists: YES
+  - patch sourced in run_dml.R: 1 line(s)
+  - ORDER setting:
+      ORDER      <- 2     # NONLINEAR: polynomial expansion
+  - sbatch env (grep gnu/14.1):
+      module load compiler/gnu/14.1
+      export PATH=/opt/bwhpc/common/compiler/gnu/14.1/bin:$PATH
+      export LD_LIBRARY_PATH=/opt/bwhpc/common/compiler/gnu/14.1/lib64:$LD_LIBRARY_PATH
+  - sbatch walltime:
+      #SBATCH --time=12:00:00
+  - sbatch memory:
+      #SBATCH --mem-per-cpu=32000
+
+[dml_full] Cleaning all DML output directories...
+
+[dml_full] Submitting array=1-800 (800 tasks total)...
+  Submitted batch job 13245012
+[dml_full] Job ID: 13245012
+
+[dml_full] Waiting for job 13245012 to drain...
+  Polling every 5 min. Safe to disconnect SSH at this point.
+[dml_full] 13:58:40  still running (1 tasks left after 0 min)
+[dml_full] 14:28:41  still running (1 tasks left after 30 min)
+[dml_full] 14:58:41  still running (8 tasks left after 60 min)
+[dml_full] 15:28:41  still running (10 tasks left after 90 min)
+[dml_full] 15:58:41  still running (10 tasks left after 120 min)
+[dml_full] 16:28:43  still running (10 tasks left after 150 min)
+[dml_full] 16:58:43  still running (13 tasks left after 180 min)
+[dml_full] 17:28:43  still running (13 tasks left after 210 min)
+[dml_full] 17:58:43  still running (15 tasks left after 240 min)
+[dml_full] 18:28:43  still running (15 tasks left after 270 min)
+[dml_full] 18:58:45  still running (16 tasks left after 300 min)
+[dml_full] 19:28:45  still running (16 tasks left after 330 min)
+[dml_full] 19:58:45  still running (17 tasks left after 360 min)
+[dml_full] 20:28:45  still running (17 tasks left after 390 min)
+[dml_full] 20:58:45  still running (17 tasks left after 420 min)
+[dml_full] 21:28:46  still running (17 tasks left after 450 min)
+[dml_full] 21:58:46  still running (17 tasks left after 480 min)
+[dml_full] 22:28:47  still running (17 tasks left after 510 min)
+[dml_full] 22:58:47  still running (17 tasks left after 540 min)
+[dml_full] 23:28:47  still running (17 tasks left after 570 min)
+[dml_full] 23:58:47  still running (17 tasks left after 600 min)
+[dml_full] 00:28:47  still running (17 tasks left after 630 min)
+[dml_full] 00:58:47  still running (17 tasks left after 660 min)
+[dml_full] 01:28:48  still running (17 tasks left after 690 min)
+[dml_full] 01:58:48  still running (18 tasks left after 720 min)
+[dml_full] 02:28:48  still running (18 tasks left after 750 min)
+[dml_full] 02:58:48  still running (80 tasks left after 780 min)
+[dml_full] 03:28:48  still running (78 tasks left after 810 min)
+[dml_full] 03:58:49  still running (78 tasks left after 840 min)
+[dml_full] 04:28:49  still running (80 tasks left after 870 min)
+[dml_full] 04:58:49  still running (78 tasks left after 900 min)
+[dml_full] 05:28:49  still running (100 tasks left after 930 min)
+[dml_full] 05:58:50  still running (100 tasks left after 960 min)
+[dml_full] 06:28:50  still running (101 tasks left after 990 min)
+[dml_full] 06:58:50  still running (102 tasks left after 1020 min)
+[dml_full] 07:28:51  still running (103 tasks left after 1050 min)
+[dml_full] 07:58:51  still running (105 tasks left after 1080 min)
+[dml_full] 08:28:51  still running (126 tasks left after 1110 min)
+[dml_full] 08:58:51  still running (129 tasks left after 1140 min)
+[dml_full] 09:28:51  still running (129 tasks left after 1170 min)
+[dml_full] 09:58:51  still running (129 tasks left after 1200 min)
+[dml_full] 10:28:51  still running (129 tasks left after 1230 min)
+[dml_full] 10:58:51  still running (129 tasks left after 1260 min)
+[dml_full] 11:28:52  still running (129 tasks left after 1290 min)
+[dml_full] 11:58:52  still running (129 tasks left after 1320 min)
+[dml_full] 12:28:52  still running (129 tasks left after 1350 min)
+[dml_full] 12:58:53  still running (129 tasks left after 1380 min)
+[dml_full] 13:28:53  still running (129 tasks left after 1410 min)
+[dml_full] 13:58:53  still running (138 tasks left after 1440 min)
+[dml_full] 14:28:53  still running (138 tasks left after 1470 min)
+[dml_full] 14:58:53  still running (115 tasks left after 1500 min)
+[dml_full] 15:28:53  still running (132 tasks left after 1530 min)
+[dml_full] 15:58:53  still running (164 tasks left after 1560 min)
+[dml_full] 16:28:53  still running (164 tasks left after 1590 min)
+[dml_full] 16:58:54  still running (163 tasks left after 1620 min)
+[dml_full] 17:28:54  still running (159 tasks left after 1650 min)
+[dml_full] 17:58:54  still running (164 tasks left after 1680 min)
+[dml_full] 18:28:54  still running (166 tasks left after 1710 min)
+[dml_full] 18:58:54  still running (172 tasks left after 1740 min)
+[dml_full] 19:28:54  still running (283 tasks left after 1770 min)
+[dml_full] 19:58:54  still running (280 tasks left after 1800 min)
+[dml_full] 20:28:55  still running (259 tasks left after 1830 min)
+[dml_full] 20:58:55  still running (256 tasks left after 1860 min)
+[dml_full] 21:28:55  still running (256 tasks left after 1890 min)
+[dml_full] 21:58:55  still running (256 tasks left after 1920 min)
+[dml_full] 22:28:55  still running (256 tasks left after 1950 min)
+[dml_full] 22:58:55  still running (256 tasks left after 1980 min)
+[dml_full] 23:28:55  still running (256 tasks left after 2010 min)
+[dml_full] 23:58:55  still running (256 tasks left after 2040 min)
+[dml_full] 00:28:56  still running (256 tasks left after 2070 min)
+[dml_full] 00:58:56  still running (256 tasks left after 2100 min)
+[dml_full] 01:28:56  still running (256 tasks left after 2130 min)
+[dml_full] 01:58:56  still running (246 tasks left after 2160 min)
+[dml_full] 02:28:56  still running (246 tasks left after 2190 min)
+[dml_full] 02:58:56  still running (200 tasks left after 2220 min)
+[dml_full] 03:28:57  still running (183 tasks left after 2250 min)
+[dml_full] 03:58:57  still running (151 tasks left after 2280 min)
+[dml_full] 04:28:57  still running (149 tasks left after 2310 min)
+[dml_full] 04:58:57  still running (149 tasks left after 2340 min)
+[dml_full] 05:28:57  still running (131 tasks left after 2370 min)
+[dml_full] 05:58:57  still running (124 tasks left after 2400 min)
+[dml_full] 06:28:57  still running (121 tasks left after 2430 min)
+[dml_full] 06:58:57  still running (113 tasks left after 2460 min)
+[dml_full] 07:28:58  still running (98 tasks left after 2490 min)
+[dml_full] 07:58:58  still running (93 tasks left after 2520 min)
+[dml_full] 08:28:58  still running (73 tasks left after 2550 min)
+[dml_full] 08:58:58  still running (68 tasks left after 2580 min)
+[dml_full] 09:28:58  still running (68 tasks left after 2610 min)
+[dml_full] 09:58:58  still running (68 tasks left after 2640 min)
+[dml_full] 10:28:58  still running (68 tasks left after 2670 min)
+[dml_full] 10:58:59  still running (68 tasks left after 2700 min)
+[dml_full] 11:28:59  still running (68 tasks left after 2730 min)
+[dml_full] 11:59:00  still running (68 tasks left after 2760 min)
+[dml_full] 12:29:00  still running (68 tasks left after 2790 min)
+[dml_full] Job 13245012 drained at Tue May 26 12:54:00 CEST 2026 (waited 2815 min)
+
+[dml_full] Counting completed rep files per scenario...
+  N1000_nX10_sx1:  proxy=100/100   oracle=100/100
+  N4000_nX10_sx1:  proxy=98/100   oracle=98/100
+  N1000_nX200_sx1:  proxy=0/100   oracle=0/100
+  N4000_nX200_sx1:  proxy=0/100   oracle=0/100
+  N1000_nX10_sx3:  proxy=100/100   oracle=100/100
+  N4000_nX10_sx3:  proxy=100/100   oracle=100/100
+  N1000_nX200_sx3:  proxy=0/100   oracle=0/100
+  N4000_nX200_sx3:  proxy=0/100   oracle=0/100
+
+[dml_full] Running aggregator...
+Aggregating per-method results...
+  lsem: 798 rows from 798 files -> performance_lsem/all_results.csv
+  lsem_oracle: 798 rows from 798 files -> performance_lsem_oracle/all_results.csv
+  lsem_i: 798 rows from 798 files -> performance_lsem_i/all_results.csv
+  lsem_i_oracle: 798 rows from 798 files -> performance_lsem_i_oracle/all_results.csv
+  dml: 398 rows from 398 files -> performance_dml/all_results.csv
+  dml_oracle: 398 rows from 398 files -> performance_dml_oracle/all_results.csv
+  dmavae: 798 rows from 798 files -> performance_dmavae/all_results.csv
+  cmavae: 798 rows from 798 files -> performance_cmavae/all_results.csv
+
+Global summary written to /home/tu/tu_tu/tu_zxojs39/cluster_nonlinear/dmavae_sim/summary_all_methods.csv
+(56 rows)
+
+[dml_full] DML rows in final summary:
+dml,1,N1000_nX10_sx1,1000,10,1,100,-0.021958,0.122936,0.124275,-0.012791,0.094084,0.094482,-0.007496,0.095012,0.094832,-0.014462,0.119619,0.119895,-0.009166,0.084141,0.084219,
+dml,2,N4000_nX10_sx1,4000,10,1,98,-0.051631,0.063848,0.081858,-0.037291,0.047733,0.060381,-0.030416,0.044765,0.053931,-0.021215,0.053128,0.056955,-0.014340,0.036427,0.038975,
+dml,5,N1000_nX10_sx3,1000,10,3,100,0.015379,0.126768,0.127066,0.006520,0.093034,0.092797,0.014276,0.093675,0.094292,0.001103,0.109640,0.109096,0.008859,0.095164,0.095100,
+dml,6,N4000_nX10_sx3,4000,10,3,100,0.029750,0.055822,0.063008,0.019648,0.037292,0.041986,0.014890,0.038362,0.040972,0.014860,0.054212,0.055949,0.010103,0.036818,0.038001,
+
+===================================================================
+[dml_full] DONE: Tue May 26 12:54:18 CEST 2026
+===================================================================

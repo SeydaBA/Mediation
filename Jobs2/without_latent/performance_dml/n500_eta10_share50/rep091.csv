@@ -1,0 +1,2 @@
+"method","scenario_id","scenario","rep","n","eta","alpha_share","ATE_est","NDE_d1_est","NDE_d0_est","NIE_d1_est","NIE_d0_est","ATE_true","NDE_d1_true","NDE_d0_true","NIE_d1_true","NIE_d0_true","ATE_bias","NDE_d1_bias","NDE_d0_bias","NIE_d1_bias","NIE_d0_bias"
+"dml_proxyX",7,"n500_eta10_share50",91,500,10,0.5,-0.040467305482633,-0.0764775873805896,0.0125862457777488,-0.0530535512603818,0.0360102818979566,0,0,0,0,0,-0.040467305482633,-0.0764775873805896,0.0125862457777488,-0.0530535512603818,0.0360102818979566

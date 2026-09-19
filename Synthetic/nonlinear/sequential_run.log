@@ -1,0 +1,23 @@
+nohup: ignoring input
+Submitted gen_data: 13219922
+12:49:36  waiting for job 13219922 to drain...
+13:03:37  job 13219922 done.
+Submitted run_lsem: 13220913
+13:03:37  waiting for job 13220913 to drain...
+13:18:37  job 13220913 done.
+Submitted run_lsem_i: 13221841
+13:18:37  waiting for job 13221841 to drain...
+13:32:38  job 13221841 done.
+Submitted run_dml: 13222714
+13:32:38  waiting for job 13222714 to drain...
+13:47:38  job 13222714 done.
+Submitted run_dmavae: 13223651
+13:47:38  waiting for job 13223651 to drain...
+14:13:40  job 13223651 done.
+Submitted run_cmavae: 13224940
+14:13:40  waiting for job 13224940 to drain...
+14:52:41  job 13224940 done.
+Submitted aggregate: 13226497
+14:52:41  waiting for job 13226497 to drain...
+14:53:41  job 13226497 done.
+DONE. All results in /home/tu/tu_tu/tu_zxojs39/cluster_nonlinear/dmavae_sim/performance_*/

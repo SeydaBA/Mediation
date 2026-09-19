@@ -1,0 +1,82 @@
+======================================================================
+[seq] JOBS II pipeline started: Tue May 26 20:59:20 CEST 2026
+======================================================================
+
+[seq] Submitting lsem ...
+  Submitted batch job 13268212
+[seq] 20:59:20 lsem  1 tasks remaining (waited 0 min)
+[seq] 21:12:20 lsem  COMPLETE (waited 13 min)
+
+[seq] Submitting lsem_i ...
+  Submitted batch job 13269053
+[seq] 21:12:20 lsem_i  1 tasks remaining (waited 0 min)
+[seq] 21:27:20 lsem_i  COMPLETE (waited 15 min)
+
+[seq] Submitting dml ...
+  Submitted batch job 13270119
+[seq] 21:27:20 dml  1 tasks remaining (waited 0 min)
+[seq] 21:57:23 dml  1 tasks remaining (waited 30 min)
+[seq] 22:27:25 dml  1 tasks remaining (waited 60 min)
+[seq] 22:46:26 dml  COMPLETE (waited 79 min)
+
+[seq] Submitting dmavae ...
+  Submitted batch job 13272379
+[seq] 22:46:26 dmavae  1 tasks remaining (waited 0 min)
+[seq] 23:03:28 dmavae  COMPLETE (waited 17 min)
+
+[seq] Submitting cmavae ...
+  Submitted batch job 13273210
+[seq] 23:03:28 cmavae  1 tasks remaining (waited 0 min)
+[seq] 23:19:29 cmavae  COMPLETE (waited 16 min)
+
+[seq] Submitting aggregate ...
+  Submitted batch job 13274017
+[seq] 23:19:29 aggregate  1 tasks remaining (waited 0 min)
+[seq] 23:21:31 aggregate  COMPLETE (waited 2 min)
+
+======================================================================
+[seq] All stages complete: Tue May 26 23:21:31 CEST 2026
+======================================================================
+
+[seq] Final summary preview:
+method,scenario_id,scenario,n,eta,alpha_share,n_reps,ATE_bias_mean,ATE_bias_sd,ATE_rmse,NDE_d1_bias_mean,NDE_d1_bias_sd,NDE_d1_rmse,NDE_d0_bias_mean,NDE_d0_bias_sd,NDE_d0_rmse,NIE_d1_bias_mean,NIE_d1_bias_sd,NIE_d1_rmse,NIE_d0_bias_mean,NIE_d0_bias_sd,NIE_d0_rmse
+  lsem  n500_eta1_share10  ATE_rmse=0.004388
+  lsem  n1000_eta1_share10  ATE_rmse=0.002370
+  lsem  n500_eta10_share10  ATE_rmse=0.001428
+  lsem  n1000_eta10_share10  ATE_rmse=0.003435
+  lsem  n500_eta1_share50  ATE_rmse=0.001353
+  lsem  n1000_eta1_share50  ATE_rmse=0.002557
+  lsem  n500_eta10_share50  ATE_rmse=-0.005975
+  lsem  n1000_eta10_share50  ATE_rmse=0.004946
+  lsem_i  n500_eta1_share10  ATE_rmse=0.004181
+  lsem_i  n1000_eta1_share10  ATE_rmse=0.002384
+  lsem_i  n500_eta10_share10  ATE_rmse=-0.000028
+  lsem_i  n1000_eta10_share10  ATE_rmse=0.003782
+  lsem_i  n500_eta1_share50  ATE_rmse=0.001973
+  lsem_i  n1000_eta1_share50  ATE_rmse=0.002633
+  lsem_i  n500_eta10_share50  ATE_rmse=-0.005066
+  lsem_i  n1000_eta10_share50  ATE_rmse=0.004345
+  dml  n500_eta1_share10  ATE_rmse=0.005097
+  dml  n1000_eta1_share10  ATE_rmse=0.002006
+  dml  n500_eta10_share10  ATE_rmse=0.003151
+  dml  n1000_eta10_share10  ATE_rmse=-0.002238
+  dml  n500_eta1_share50  ATE_rmse=-0.005378
+  dml  n1000_eta1_share50  ATE_rmse=-0.000522
+  dml  n500_eta10_share50  ATE_rmse=-0.000947
+  dml  n1000_eta10_share50  ATE_rmse=0.012028
+  dmavae  n500_eta1_share10  ATE_rmse=
+  dmavae  n1000_eta1_share10  ATE_rmse=
+  dmavae  n500_eta10_share10  ATE_rmse=
+  dmavae  n1000_eta10_share10  ATE_rmse=
+  dmavae  n500_eta1_share50  ATE_rmse=
+  dmavae  n1000_eta1_share50  ATE_rmse=
+  dmavae  n500_eta10_share50  ATE_rmse=
+  dmavae  n1000_eta10_share50  ATE_rmse=
+  cmavae  n500_eta1_share10  ATE_rmse=
+  cmavae  n1000_eta1_share10  ATE_rmse=
+  cmavae  n500_eta10_share10  ATE_rmse=
+  cmavae  n1000_eta10_share10  ATE_rmse=
+  cmavae  n500_eta1_share50  ATE_rmse=
+  cmavae  n1000_eta1_share50  ATE_rmse=
+  cmavae  n500_eta10_share50  ATE_rmse=
+  cmavae  n1000_eta10_share50  ATE_rmse=

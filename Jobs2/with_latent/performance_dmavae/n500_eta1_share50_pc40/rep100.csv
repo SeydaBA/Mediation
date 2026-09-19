@@ -1,0 +1,2 @@
+method,scenario_id,scenario,rep,n,eta,alpha_share,ATE_est,NDE_d0_est,NIE_d1_est,NIE_d0_est,ATE_true,NDE_d0_true,NIE_d1_true,NIE_d0_true,ATE_bias,NDE_d0_bias,NIE_d1_bias,NIE_d0_bias,converged,first_10_loss,last_10_loss,last_10_loss_sd,relative_drop,relative_sd
+dmavae,29,n500_eta1_share50_pc40,100,500,1,0.500000,0.541343,0.705714,-0.164371,0.852948,0.000000,0.000000,0.000000,0.000000,0.541343,0.705714,-0.164371,0.852948,True,65.516899,21.371988,0.098299,0.673794,0.004599
